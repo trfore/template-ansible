@@ -20,7 +20,7 @@ jobs:
     uses: trfore/ansible-role/.github/workflows/format.yml@main
 
   lint:
-    uses: DavidAnson/markdownlint-cli2-action@v16
+    uses: DavidAnson/markdownlint-cli2-action@v18
     with:
       config: ".markdownlint.yaml"
       globs: "**/*.md"
